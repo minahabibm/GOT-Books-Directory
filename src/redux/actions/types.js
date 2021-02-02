@@ -1,0 +1,5 @@
+export const FETCH_BOOKS_NAMES = 'FETCH_BOOKS_NAMES';
+export const SELECT_THEME = 'SELECT_THEME';
+export const SEARCH_VISIBLE = 'SEARCH_VISIBLE';
+export const RESULTS_VISIBLE = 'RESULTS_VISIBLE';
+export const BOOK_INFO = 'BOOK_INFO';
