@@ -23,7 +23,7 @@ function App(props) {
 
   return (
     <ThemeProvider theme={themes}>
-      <MetaTags></MetaTags>
+      <MetaTags />
       <CssBaseline />
       <div className="App" style={{ backgroundImage: `url(${bground})` }}>
 
