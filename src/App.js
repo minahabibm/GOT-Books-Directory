@@ -7,6 +7,7 @@ import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Grow from '@material-ui/core/Grow';
 
+import MetaTags from './components/meta-tags';
 import { Light, Dark, pictures } from './styling/theme-types';
 import Header from './components/header';
 import Footer from './components/footer';
@@ -22,6 +23,7 @@ function App(props) {
 
   return (
     <ThemeProvider theme={themes}>
+      <MetaTags></MetaTags>
       <CssBaseline />
       <div className="App" style={{ backgroundImage: `url(${bground})` }}>
 
